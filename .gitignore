@@ -1,0 +1,45 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.idea
+/.vscode
+/.env
+Homestead.yaml
+Homestead.json
+.env.backup
+.env.local
+
+# Logs
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Cache y compilados
+/bootstrap/cache/*
+/composer.lock
+/phpunit.xml
+/.phpunit.result.cache
+
+# Archivos temporales
+*.log
+*.cache
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Sistema
+*.sql
+*.zip
+*.tar.gz
+*.env.*
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+/db_data
+/docker-compose.override.yml
