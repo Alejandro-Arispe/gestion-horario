@@ -37,6 +37,7 @@ Thumbs.db
 *.zip
 *.tar.gz
 *.env.*
+/backend/.env*
 *.sublime-workspace
 *.sublime-project
 
